@@ -1,5 +1,6 @@
 {
     "name": "jsw/commonmark-cite-extension",
+    "description": "League\\Commonmark extension inspired by Markdig",
     "type": "commonmark-extension",
     "authors": [
         {
@@ -8,6 +9,9 @@
             "homepage": "https://github.com/JanStanleyWatt"
         }
     ],
+    "support": {
+        "issues": "https://github.com/JanStanleyWatt/commonmark-cite-extension/issues"
+    },
     "license": "Apache-2.0",
     "readme": "README.md",
     "require-dev": {
