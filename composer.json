@@ -1,0 +1,36 @@
+{
+    "name": "jsw/commonmark-cite-extension",
+    "type": "commonmark-extension",
+    "authors": [
+        {
+            "name": "Jan Stanray Watt",
+            "email": "github@mail.whojinn.com",
+            "homepage": "https://github.com/JanStanleyWatt"
+        }
+    ],
+    "license": "Apache-2.0",
+    "readme": "README.md",
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "friendsofphp/php-cs-fixer": "^3.14",
+        "league/commonmark": "^2.3"
+    },
+    "scripts": {
+        "test": [
+            "./vendor/bin/phpunit"
+        ]
+    },
+    "scripts-descriptions": {
+        "test": "Run all tests"
+    },
+    "autoload": {
+        "psr-4": {
+            "JSW\\Cite\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "JSW\\Tests\\": "tests/"
+        }
+    }
+}
